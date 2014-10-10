@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BrowserAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BrowserViewController.m */; };
+		AF05DD08129684F0007460ED /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = AF05DD07129684F0007460ED /* cross.png */; };
+		AF7026E313117E1300BA2697 /* bookmarklist_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7026DF13117E1300BA2697 /* bookmarklist_25.png */; };
+		AF7026E413117E1300BA2697 /* bookmark_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7026E013117E1300BA2697 /* bookmark_25.png */; };
+		AF7026E513117E1300BA2697 /* tabup_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7026E113117E1300BA2697 /* tabup_25.png */; };
+		AF7026E613117E1300BA2697 /* tabdown_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7026E213117E1300BA2697 /* tabdown_25.png */; };
+		AF75EE83130FC9920030AF2D /* BookmarkItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF75EE82130FC9920030AF2D /* BookmarkItemViewController.xib */; };
+		AF75EF86131021FF0030AF2D /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF75EF84131021FF0030AF2D /* BookmarkViewController.m */; };
+		AF75EF87131021FF0030AF2D /* BookmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF75EF85131021FF0030AF2D /* BookmarkViewController.xib */; };
+		AF7691B8126D8518003B7E54 /* BrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* BrowserViewController.xib */; };
+		AF7691BC126D8B15003B7E54 /* Tab.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7691BB126D8B15003B7E54 /* Tab.m */; };
+		AF8F6D1512D1D8AE00DD98C2 /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8F6D1412D1D8AE00DD98C2 /* tile.png */; };
+		AF8F6D4912D2184C00DD98C2 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8F6D4712D2184C00DD98C2 /* HistoryViewController.m */; };
+		AF8F6D4A12D2184C00DD98C2 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8F6D4812D2184C00DD98C2 /* HistoryViewController.xib */; };
+		AF8F6E7912D256FF00DD98C2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF8F6E7812D256FF00DD98C2 /* Settings.bundle */; };
+		AF94ECAD1293C0D0000485CD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94ECAC1293C0D0000485CD /* Icon-72.png */; };
+		AF94ED0C1293EAA8000485CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF94ED0B1293EAA8000485CD /* QuartzCore.framework */; };
+		AF94EE0212940FCD000485CD /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94EE0112940FCD000485CD /* back-arrow.png */; };
+		AF94EE65129444C6000485CD /* add pages.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94EE60129444C6000485CD /* add pages.png */; };
+		AF94EE66129444C6000485CD /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94EE61129444C6000485CD /* add.png */; };
+		AF94EE67129444C6000485CD /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94EE62129444C6000485CD /* delete.png */; };
+		AF94EE68129444C6000485CD /* forward arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94EE63129444C6000485CD /* forward arrow.png */; };
+		AF94EE69129444C6000485CD /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = AF94EE64129444C6000485CD /* refresh.png */; };
+		AF9A5AC2130E6CF00095E476 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9A5AC1130E6CF00095E476 /* Utility.m */; };
+		AFAE8A5012FC3C6100FF3D6C /* fraktol_bg_165.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAE8A4F12FC3C6100FF3D6C /* fraktol_bg_165.png */; };
+		AFAE8A6112FC402D00FF3D6C /* fraktol_bg_big.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAE8A6012FC402D00FF3D6C /* fraktol_bg_big.png */; };
+		AFAE8A7A12FC765700FF3D6C /* settings_1cog.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAE8A7912FC765700FF3D6C /* settings_1cog.png */; };
+		AFAE8A7F12FC7FAB00FF3D6C /* scroll_left.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAE8A7E12FC7FAB00FF3D6C /* scroll_left.png */; };
+		AFAE8A8A12FC809B00FF3D6C /* scroll_right.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAE8A8912FC809B00FF3D6C /* scroll_right.png */; };
+		AFC63387127AB711001FF3BE /* TabItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC63385127AB711001FF3BE /* TabItemViewController.m */; };
+		AFC63388127AB711001FF3BE /* TabItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC63386127AB711001FF3BE /* TabItemViewController.xib */; };
+		AFEDAF0612DA253E006E156C /* settings_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAEFE12DA253E006E156C /* settings_25.png */; };
+		AFEDAF0F12DA28EE006E156C /* settings_35.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF0E12DA28EE006E156C /* settings_35.png */; };
+		AFEDAF1712DA2B1E006E156C /* newtab_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF1612DA2B1E006E156C /* newtab_25.png */; };
+		AFEDAF2912DA2FE3006E156C /* add_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF2312DA2FE3006E156C /* add_25.png */; };
+		AFEDAF2A12DA2FE3006E156C /* backarrow_20.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF2412DA2FE3006E156C /* backarrow_20.png */; };
+		AFEDAF2B12DA2FE3006E156C /* cross_17.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF2512DA2FE3006E156C /* cross_17.png */; };
+		AFEDAF2C12DA2FE3006E156C /* cross_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF2612DA2FE3006E156C /* cross_25.png */; };
+		AFEDAF2D12DA2FE3006E156C /* forwardarrow_20.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF2712DA2FE3006E156C /* forwardarrow_20.png */; };
+		AFEDAF2E12DA2FE3006E156C /* refresh_25.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF2812DA2FE3006E156C /* refresh_25.png */; };
+		AFEDAF8A12DA3FBF006E156C /* fraktol_bgslice.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF8912DA3FBF006E156C /* fraktol_bgslice.png */; };
+		AFEDAF9512DA4272006E156C /* cross_12.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF9312DA4272006E156C /* cross_12.png */; };
+		AFEDAF9612DA4272006E156C /* cross_14.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEDAF9412DA4272006E156C /* cross_14.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BrowserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BrowserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* BrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowserViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Browser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Browser_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Browser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Browser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AF05DD07129684F0007460ED /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		AF7026DF13117E1300BA2697 /* bookmarklist_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmarklist_25.png; sourceTree = "<group>"; };
+		AF7026E013117E1300BA2697 /* bookmark_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark_25.png; sourceTree = "<group>"; };
+		AF7026E113117E1300BA2697 /* tabup_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabup_25.png; sourceTree = "<group>"; };
+		AF7026E213117E1300BA2697 /* tabdown_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabdown_25.png; sourceTree = "<group>"; };
+		AF75EE82130FC9920030AF2D /* BookmarkItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkItemViewController.xib; sourceTree = "<group>"; };
+		AF75EF83131021FF0030AF2D /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkViewController.h; path = ../BookmarkViewController.h; sourceTree = "<group>"; };
+		AF75EF84131021FF0030AF2D /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkViewController.m; path = ../BookmarkViewController.m; sourceTree = "<group>"; };
+		AF75EF85131021FF0030AF2D /* BookmarkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkViewController.xib; sourceTree = "<group>"; };
+		AF7691BA126D8B15003B7E54 /* Tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab.h; sourceTree = "<group>"; };
+		AF7691BB126D8B15003B7E54 /* Tab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab.m; sourceTree = "<group>"; };
+		AF8F6D1412D1D8AE00DD98C2 /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		AF8F6D4612D2184C00DD98C2 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		AF8F6D4712D2184C00DD98C2 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		AF8F6D4812D2184C00DD98C2 /* HistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HistoryViewController.xib; path = Classes/HistoryViewController.xib; sourceTree = "<group>"; };
+		AF8F6E7812D256FF00DD98C2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AF94ECAC1293C0D0000485CD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		AF94ED0B1293EAA8000485CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF94EE0112940FCD000485CD /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		AF94EE60129444C6000485CD /* add pages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add pages.png"; sourceTree = "<group>"; };
+		AF94EE61129444C6000485CD /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		AF94EE62129444C6000485CD /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		AF94EE63129444C6000485CD /* forward arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward arrow.png"; sourceTree = "<group>"; };
+		AF94EE64129444C6000485CD /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		AF9A5AC0130E6CF00095E476 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		AF9A5AC1130E6CF00095E476 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		AFA9ABE312FDAA6F007647B3 /* Fraktol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraktol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAE8A4F12FC3C6100FF3D6C /* fraktol_bg_165.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fraktol_bg_165.png; sourceTree = "<group>"; };
+		AFAE8A6012FC402D00FF3D6C /* fraktol_bg_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fraktol_bg_big.png; sourceTree = "<group>"; };
+		AFAE8A7912FC765700FF3D6C /* settings_1cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_1cog.png; sourceTree = "<group>"; };
+		AFAE8A7E12FC7FAB00FF3D6C /* scroll_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_left.png; sourceTree = "<group>"; };
+		AFAE8A8912FC809B00FF3D6C /* scroll_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_right.png; sourceTree = "<group>"; };
+		AFC63384127AB711001FF3BE /* TabItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabItemViewController.h; path = ../TabItemViewController.h; sourceTree = "<group>"; };
+		AFC63385127AB711001FF3BE /* TabItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabItemViewController.m; path = ../TabItemViewController.m; sourceTree = "<group>"; };
+		AFC63386127AB711001FF3BE /* TabItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabItemViewController.xib; sourceTree = "<group>"; };
+		AFEDAEFE12DA253E006E156C /* settings_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_25.png; sourceTree = "<group>"; };
+		AFEDAF0E12DA28EE006E156C /* settings_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_35.png; sourceTree = "<group>"; };
+		AFEDAF1612DA2B1E006E156C /* newtab_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newtab_25.png; sourceTree = "<group>"; };
+		AFEDAF2312DA2FE3006E156C /* add_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_25.png; sourceTree = "<group>"; };
+		AFEDAF2412DA2FE3006E156C /* backarrow_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrow_20.png; sourceTree = "<group>"; };
+		AFEDAF2512DA2FE3006E156C /* cross_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_17.png; sourceTree = "<group>"; };
+		AFEDAF2612DA2FE3006E156C /* cross_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_25.png; sourceTree = "<group>"; };
+		AFEDAF2712DA2FE3006E156C /* forwardarrow_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardarrow_20.png; sourceTree = "<group>"; };
+		AFEDAF2812DA2FE3006E156C /* refresh_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_25.png; sourceTree = "<group>"; };
+		AFEDAF8912DA3FBF006E156C /* fraktol_bgslice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fraktol_bgslice.png; sourceTree = "<group>"; };
+		AFEDAF9312DA4272006E156C /* cross_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_12.png; sourceTree = "<group>"; };
+		AFEDAF9412DA4272006E156C /* cross_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_14.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				AF94ED0C1293EAA8000485CD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* BrowserAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BrowserAppDelegate.m */,
+				AFC63384127AB711001FF3BE /* TabItemViewController.h */,
+				AFC63385127AB711001FF3BE /* TabItemViewController.m */,
+				AF75EF83131021FF0030AF2D /* BookmarkViewController.h */,
+				AF75EF84131021FF0030AF2D /* BookmarkViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* BrowserViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* BrowserViewController.m */,
+				AF7691BA126D8B15003B7E54 /* Tab.h */,
+				AF7691BB126D8B15003B7E54 /* Tab.m */,
+				AF8F6D4612D2184C00DD98C2 /* HistoryViewController.h */,
+				AF8F6D4712D2184C00DD98C2 /* HistoryViewController.m */,
+				AF9A5AC0130E6CF00095E476 /* Utility.h */,
+				AF9A5AC1130E6CF00095E476 /* Utility.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFA9ABE312FDAA6F007647B3 /* Fraktol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				AF94ED0B1293EAA8000485CD /* QuartzCore.framework */,
+				AF8F6E7812D256FF00DD98C2 /* Settings.bundle */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Browser_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF7026DF13117E1300BA2697 /* bookmarklist_25.png */,
+				AF7026E013117E1300BA2697 /* bookmark_25.png */,
+				AF7026E113117E1300BA2697 /* tabup_25.png */,
+				AF7026E213117E1300BA2697 /* tabdown_25.png */,
+				AF75EE82130FC9920030AF2D /* BookmarkItemViewController.xib */,
+				AFAE8A8912FC809B00FF3D6C /* scroll_right.png */,
+				AFAE8A7E12FC7FAB00FF3D6C /* scroll_left.png */,
+				AFAE8A7912FC765700FF3D6C /* settings_1cog.png */,
+				AFAE8A6012FC402D00FF3D6C /* fraktol_bg_big.png */,
+				AFAE8A4F12FC3C6100FF3D6C /* fraktol_bg_165.png */,
+				AFEDAF9312DA4272006E156C /* cross_12.png */,
+				AFEDAF9412DA4272006E156C /* cross_14.png */,
+				AFEDAF8912DA3FBF006E156C /* fraktol_bgslice.png */,
+				AFEDAF2312DA2FE3006E156C /* add_25.png */,
+				AFEDAF2412DA2FE3006E156C /* backarrow_20.png */,
+				AFEDAF2512DA2FE3006E156C /* cross_17.png */,
+				AFEDAF2612DA2FE3006E156C /* cross_25.png */,
+				AFEDAF2712DA2FE3006E156C /* forwardarrow_20.png */,
+				AFEDAF2812DA2FE3006E156C /* refresh_25.png */,
+				AFEDAF1612DA2B1E006E156C /* newtab_25.png */,
+				AFEDAF0E12DA28EE006E156C /* settings_35.png */,
+				AFEDAEFE12DA253E006E156C /* settings_25.png */,
+				AF8F6D4812D2184C00DD98C2 /* HistoryViewController.xib */,
+				AF8F6D1412D1D8AE00DD98C2 /* tile.png */,
+				AF05DD07129684F0007460ED /* cross.png */,
+				AF94EE60129444C6000485CD /* add pages.png */,
+				AF94EE61129444C6000485CD /* add.png */,
+				AF94EE62129444C6000485CD /* delete.png */,
+				AF94EE63129444C6000485CD /* forward arrow.png */,
+				AF94EE64129444C6000485CD /* refresh.png */,
+				AF94EE0112940FCD000485CD /* back-arrow.png */,
+				AF94ECAC1293C0D0000485CD /* Icon-72.png */,
+				AFC63386127AB711001FF3BE /* TabItemViewController.xib */,
+				2899E5210DE3E06400AC0155 /* BrowserViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Browser-Info.plist */,
+				AF75EF85131021FF0030AF2D /* BookmarkViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Fraktol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fraktol" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fraktol;
+			productName = Browser;
+			productReference = AFA9ABE312FDAA6F007647B3 /* Fraktol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Fraktol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				AF7691B8126D8518003B7E54 /* BrowserViewController.xib in Resources */,
+				AFC63388127AB711001FF3BE /* TabItemViewController.xib in Resources */,
+				AF94ECAD1293C0D0000485CD /* Icon-72.png in Resources */,
+				AF94EE0212940FCD000485CD /* back-arrow.png in Resources */,
+				AF94EE65129444C6000485CD /* add pages.png in Resources */,
+				AF94EE66129444C6000485CD /* add.png in Resources */,
+				AF94EE67129444C6000485CD /* delete.png in Resources */,
+				AF94EE68129444C6000485CD /* forward arrow.png in Resources */,
+				AF94EE69129444C6000485CD /* refresh.png in Resources */,
+				AF05DD08129684F0007460ED /* cross.png in Resources */,
+				AF8F6D1512D1D8AE00DD98C2 /* tile.png in Resources */,
+				AF8F6D4A12D2184C00DD98C2 /* HistoryViewController.xib in Resources */,
+				AF8F6E7912D256FF00DD98C2 /* Settings.bundle in Resources */,
+				AFEDAF0612DA253E006E156C /* settings_25.png in Resources */,
+				AFEDAF0F12DA28EE006E156C /* settings_35.png in Resources */,
+				AFEDAF1712DA2B1E006E156C /* newtab_25.png in Resources */,
+				AFEDAF2912DA2FE3006E156C /* add_25.png in Resources */,
+				AFEDAF2A12DA2FE3006E156C /* backarrow_20.png in Resources */,
+				AFEDAF2B12DA2FE3006E156C /* cross_17.png in Resources */,
+				AFEDAF2C12DA2FE3006E156C /* cross_25.png in Resources */,
+				AFEDAF2D12DA2FE3006E156C /* forwardarrow_20.png in Resources */,
+				AFEDAF2E12DA2FE3006E156C /* refresh_25.png in Resources */,
+				AFEDAF8A12DA3FBF006E156C /* fraktol_bgslice.png in Resources */,
+				AFEDAF9512DA4272006E156C /* cross_12.png in Resources */,
+				AFEDAF9612DA4272006E156C /* cross_14.png in Resources */,
+				AFAE8A5012FC3C6100FF3D6C /* fraktol_bg_165.png in Resources */,
+				AFAE8A6112FC402D00FF3D6C /* fraktol_bg_big.png in Resources */,
+				AFAE8A7A12FC765700FF3D6C /* settings_1cog.png in Resources */,
+				AFAE8A7F12FC7FAB00FF3D6C /* scroll_left.png in Resources */,
+				AFAE8A8A12FC809B00FF3D6C /* scroll_right.png in Resources */,
+				AF75EE83130FC9920030AF2D /* BookmarkItemViewController.xib in Resources */,
+				AF75EF87131021FF0030AF2D /* BookmarkViewController.xib in Resources */,
+				AF7026E313117E1300BA2697 /* bookmarklist_25.png in Resources */,
+				AF7026E413117E1300BA2697 /* bookmark_25.png in Resources */,
+				AF7026E513117E1300BA2697 /* tabup_25.png in Resources */,
+				AF7026E613117E1300BA2697 /* tabdown_25.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BrowserAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* BrowserViewController.m in Sources */,
+				AF7691BC126D8B15003B7E54 /* Tab.m in Sources */,
+				AFC63387127AB711001FF3BE /* TabItemViewController.m in Sources */,
+				AF8F6D4912D2184C00DD98C2 /* HistoryViewController.m in Sources */,
+				AF9A5AC2130E6CF00095E476 /* Utility.m in Sources */,
+				AF75EF86131021FF0030AF2D /* BookmarkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Browser_Prefix.pch;
+				INFOPLIST_FILE = "Browser-Info.plist";
+				PRODUCT_NAME = Fraktol;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Browser_Prefix.pch;
+				INFOPLIST_FILE = "Browser-Info.plist";
+				PRODUCT_NAME = FraktoliPadWebFractoliPadWebFractoliPadFractoliPadBrowser;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF94F24A12DCC76D0097CF7F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ronan Moynihan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = Fraktol;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC02D2D8-B718-4BE3-BFFD-FF6AFFB87904";
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Distribution;
+		};
+		AF94F24B12DCC76D0097CF7F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Browser_Prefix.pch;
+				INFOPLIST_FILE = "Browser-Info.plist";
+				PRODUCT_NAME = Fraktol;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ronan Moynihan (6N757LTPPL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Fraktol;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FC3B27F7-C7D0-4505-8C54-544E893336E0";
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ronan Moynihan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = Fraktol;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC02D2D8-B718-4BE3-BFFD-FF6AFFB87904";
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fraktol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				AF94F24B12DCC76D0097CF7F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				AF94F24A12DCC76D0097CF7F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
